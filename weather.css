@@ -1,0 +1,68 @@
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url('weather.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        
+}
+.box{
+        background: linear-gradient(135deg,rgb(107, 228, 228),rgb(73, 73, 215));
+        width:300px;
+        padding:22px;
+        text-align: center;
+        border-radius: px;
+        margin-top: 2%;
+
+}
+#bx{
+        width:150px;
+        margin-top: -22px;
+        height:150px;
+}
+.search{
+        display: flex;
+        margin-top: 11px;
+}
+input{
+        width:250px;
+        padding:16px;
+        border-radius: 16px;
+        height:9px;
+        border:none;
+        outline:none;
+        font-size: 18px;
+        background-color: #ebfffc;
+        color:black;
+}
+button{
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        background-color: #ebfffc;
+        border:none;
+        outline:none;
+        margin-inline: 5px;
+
+}
+button img{
+        width:25px;
+        height:20px;
+
+}
+::placeholder{
+        color:grey;
+}
+#city{
+        margin-top: 33px;;
+        font-size: 35px;
+}
+#temp{
+        font-size:35px;
+        margin-top: -8px;
+}
+#type{
+        font-size: 25px;;
+        margin-top:-20px;
+}
